@@ -21,7 +21,8 @@
 }
 
 body.theme-night {
-    --bg-nav: #0a1628;;
+    --bg-nav: #0a1628;
+    ;
     --bg-main: #0d1b3e;
     --bg-card: #1a2f5e;
     --bg-tech: #2d4a8a;
@@ -30,14 +31,14 @@ body.theme-night {
     --bg-footer: #0a1628;
 
     --text-logo: #f0c040;
-    --text-nav-link: #8bb4e8;
-    --text-nav-hover: #c9b1f0;
-    --text-heading: #8bb4e8;
+    --text-nav-link: #a8d8ea;
+    --text-nav-hover: #f0c040;
+    --text-heading: #a8d8ea;
     --text-card: #e6edf3;
-    --text-footer: #8bb4e8;
+    --text-footer: #a8d8ea;
 
     --border-card: #30363d;
-    --border-input: #6e40c9;
+    --border-input: #2d4a8a;
 }
 
 * {
@@ -506,11 +507,16 @@ button.btn:hover {
 
 /*태블릿 (481px ~ 768px)*/
 @media (min-width: 481px) and (max-width: 768px) {
-    nav ul {
+    nav {
+        flex-direction: column;
         gap: 1rem;
+        padding: 1rem;
+    }
+
+    nav ul {
+        gap: 1.5rem;
         flex-wrap: wrap;
         justify-content: center;
-        font-size: 0.9rem;
     }
 
     nav a {
