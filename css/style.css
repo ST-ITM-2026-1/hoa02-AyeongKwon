@@ -21,23 +21,23 @@
 }
 
 body.theme-night {
-    --bg-nav: #0d1117;
-    --bg-main: #1a1f2e;
-    --bg-card: #21262d;
-    --bg-tech: #6e40c9;
-    --bg-btn: #6e40c9;
-    --bg-btn-hover: #388bfd;
-    --bg-footer: #0d1117;
+    --bg-nav: #0a1628;       /* 짙은 밤하늘 */
+    --bg-main: #0d1b3e;      /* 깊은 남색 배경 */
+    --bg-card: #1a2f5e;      /* 중간 남색 카드 */
+    --bg-tech: #2d4a8a;      /* 기술 태그 */
+    --bg-btn: #c8960c;       /* 황금 버튼 */
+    --bg-btn-hover: #f0c040; /* 밝은 황금 hover */
+    --bg-footer: #0a1628;    /* 짙은 밤하늘 footer */
 
-    --text-logo: #f0c040;
-    --text-nav-link: #8bb4e8;
-    --text-nav-hover: #c9b1f0;
-    --text-heading: #8bb4e8;
-    --text-card: #e6edf3;
-    --text-footer: #8bb4e8;
+    --text-logo: #f0c040;    /* 황금 로고 */
+    --text-nav-link: #a8d8ea;  /* 밝은 하늘색 링크 */
+    --text-nav-hover: #f0c040; /* 황금 hover */
+    --text-heading: #a8d8ea;   /* 하늘색 제목 */
+    --text-card: #d4e9f7;      /* 밝은 카드 텍스트 */
+    --text-footer: #a8d8ea;    /* 하늘색 footer */
 
-    --border-card: #30363d;
-    --border-input: #6e40c9;
+    --border-card: #2d4a8a;    /* 남색 테두리 */
+    --border-input: #2d4a8a;   /* 남색 input 테두리 */
 }
 
 * {
