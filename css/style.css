@@ -497,7 +497,7 @@ button.btn:hover {
         padding: 1rem;
     }
 
-        .github-profile {
+    .github-profile {
         flex-direction: column;
         text-align: center;
     }
