@@ -299,7 +299,7 @@ button.btn:hover {
 }
 
 .badge {
-    background-color: #BAD5DE;
+    background-color: var(--border-card);
     color: white;
     padding: 0.2rem 0.7rem;
     border-radius: 20px;
@@ -427,7 +427,7 @@ button.btn:hover {
 .github-error {
     text-align: center;
     color: #e07070;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 3rem;
 }
 
