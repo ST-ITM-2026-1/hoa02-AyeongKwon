@@ -85,6 +85,22 @@ nav a:hover {
     color: var(--text-nav-hover);
 }
 
+#theme-toggle {
+    background-color: var(--bg-card);
+    color: var(--bg-nav);
+    border: none;
+    border-radius: 50px;
+    padding: 0.45rem 1.1rem;
+    font-size: 0.95rem;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#theme-toggle:hover {
+    opacity: 0.85;
+}
+
 /*title of the page*/
 h2 {
     text-align: center;

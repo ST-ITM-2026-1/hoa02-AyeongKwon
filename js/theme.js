@@ -26,7 +26,7 @@ function updateButton(theme) {
 
 function toggleTheme() {
     const current = getCurrentTheme();
-    applyTheme(current === 'night' ? 'forest' : 'night');
+    applyTheme(current === 'night' ? 'day' : 'night');
 }
 
 document.addEventListener('DOMContentLoaded', function () {
