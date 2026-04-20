@@ -506,6 +506,16 @@ button.btn:hover {
 
 /*태블릿 (481px ~ 768px)*/
 @media (min-width: 481px) and (max-width: 768px) {
+    nav ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 0.9rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
 
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
