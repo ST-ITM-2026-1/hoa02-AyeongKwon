@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+:root {
+    --bg-nav: #557B40;
+    --bg-main: #8ea458;
+    --bg-card: #f6ed9b;
+    --bg-tech: #D9C5EA;
+    --bg-btn: #b29cc5;
+    --bg-btn-hover: #93b5c1;
+    --bg-footer: #557B40;
+
+    --text-logo: #f6ed9b;
+    --text-nav-link: #BAD5DE;
+    --text-nav-hover: #D9C5EA;
+    --text-heading: #BAD5DE;
+    --text-card: #3B3B33;
+    --text-footer: #BAD5DE;
+
+    --border-card: #BAD5DE;
+    --border-input: #b29cc5;
+}
+
+body.theme-night {
+    --bg-nav: #0d1117;
+    --bg-main: #1a1f2e;
+    --bg-card: #21262d;
+    --bg-tech: #6e40c9;
+    --bg-btn: #6e40c9;
+    --bg-btn-hover: #388bfd;
+    --bg-footer: #0d1117;
+
+    --text-logo: #f0c040;
+    --text-nav-link: #8bb4e8;
+    --text-nav-hover: #c9b1f0;
+    --text-heading: #8bb4e8;
+    --text-card: #e6edf3;
+    --text-footer: #8bb4e8;
+
+    --border-card: #30363d;
+    --border-input: #6e40c9;
+}
+
 * {
     margin: 0;
     padding: 0;
