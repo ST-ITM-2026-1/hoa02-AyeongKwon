@@ -240,6 +240,7 @@ button.btn:hover {
 .skill-category h3 {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
+    color: var(--text-card);
 }
 
 .skill-list {
@@ -288,7 +289,7 @@ button.btn:hover {
 .card-content h3 {
     margin-bottom: 0.5rem;
     letter-spacing: normal;
-    color: var(--text-heading);
+    color: var(--text-card);
 }
 
 .tech {
