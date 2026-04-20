@@ -22,9 +22,9 @@
 
 body.theme-night {
     --bg-nav: #0a1628;;
-    --bg-main: #1a1f2e;
+    --bg-main: #0d1b3e;
     --bg-card: #1a2f5e;
-    --bg-tech: #6e40c9;
+    --bg-tech: #2d4a8a;
     --bg-btn: #6e40c9;
     --bg-btn-hover: #f0c040;
     --bg-footer: #0a1628;
@@ -36,7 +36,7 @@ body.theme-night {
     --text-card: #e6edf3;
     --text-footer: #8bb4e8;
 
-    --border-card: #30363d;
+    --border-card: #f0c040;
     --border-input: #6e40c9;
 }
 
