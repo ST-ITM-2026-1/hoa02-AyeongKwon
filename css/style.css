@@ -53,11 +53,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2.5rem;
-    background-color: #557B40;
+    background-color: var(--bg-nav);
 }
 
 .nav-logo {
-    color: #f6ed9b;
+    color: var(--text-logo);
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: normal;
@@ -74,7 +74,7 @@ nav ul {
 }
 
 nav a {
-    color: #BAD5DE;
+    color: var(--text-nav-link);
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 500;
@@ -82,11 +82,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #D9C5EA;
-}
-
-nav a:playing {
-    color: #D9C5EA;
+    color: var(--text-nav-hover);
 }
 
 /*title of the page*/
@@ -94,10 +90,10 @@ h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 3rem;
-    color: #BAD5DE;
+    color: var(--text-heading);
     text-decoration: underline;
     text-underline-offset: 10px;
-    text-decoration-color: #D9C5EA;
+    text-decoration-color: var(--text-nav-hover);
 }
 
 /* background-color: #a5bc70;*/
@@ -108,13 +104,13 @@ h2 {
 #projects,
 #github {
     padding: 2rem 2rem;
-    background-color: #8ea458;
+    background-color: var(--bg-main);
 }
 
 /*home-about*/
 .about-content {
     display: flex;
-    background-color: #f6ed9b;
+    background-color: var(--bg-card);
     border-radius: 10px;
     gap: 3rem;
     padding: 1rem 2rem 1rem 2rem;
@@ -142,7 +138,7 @@ h2 {
     flex-direction: column;
     gap: 5px;
     list-style: none;
-    color: #3B3B33;
+    color: var(--text-card);
     margin-top: 20px;
 }
 
@@ -169,13 +165,13 @@ h2 {
 
 .form-group>label {
     font-weight: bold;
-    color: #333;
+    color: var(--text-card);
 }
 
 input,
 textarea {
     padding: 0.8rem 1rem;
-    border: 1px solid #b29cc5;
+    border: 1px solid var(--border-input);
     border-radius: 5px;
     font-size: 1rem;
     width: 100%;
@@ -184,7 +180,7 @@ textarea {
 input:focus,
 textarea:focus {
     outline: none;
-    border-color: #BAD5DE;
+    border-color: var(--border-card);
     border-width: 2px;
 }
 
@@ -194,7 +190,7 @@ textarea {
 
 button.btn {
     padding: 0.8rem 2rem;
-    background-color: #b29cc5;
+    background-color: var(--bg-btn);
     color: white;
     border: none;
     border-radius: 5px;
@@ -206,7 +202,7 @@ button.btn {
 
 button.btn:hover {
     font-family: "Playfair Display", serif;
-    background-color: #93b5c1;
+    background-color: var(--bg-btn-hover);
 }
 
 /*skills*/
@@ -219,10 +215,10 @@ button.btn:hover {
 }
 
 .skill-category {
-    background-color: #f6ed9b;
+    background-color: var(--bg-card);
     border-radius: 10px;
     padding: 2rem;
-    border: 1px solid #BAD5DE;
+    border: 1px solid var(--border-card);
 }
 
 .skill-category h3 {
@@ -239,9 +235,9 @@ button.btn:hover {
 }
 
 .skill-list li {
-    background-color: #D9C5EA;
+    background-color: var(--bg-tech);
     color: #fff;
-    border: 0.5px solid #BAD5DE;
+    border: 0.5px solid var(--border-card);
     padding: 0.5rem 1rem;
     border-radius: 5px;
     font-size: 0.95rem;
@@ -257,9 +253,9 @@ button.btn:hover {
 }
 
 .project-card {
-    border: 1px solid #BAD5DE;
+    border: 1px solid var(--border-card);
     border-radius: 10px;
-    background-color: #f6ed9b;
+    background-color: var(--bg-card);
     overflow: hidden;
 }
 
@@ -288,7 +284,7 @@ button.btn:hover {
 }
 
 .tech li {
-    background-color: #D9C5EA;
+    background-color: var(--bg-tech);
     color: #fff;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
@@ -317,31 +313,31 @@ button.btn:hover {
     display: flex;
     align-items: center;
     gap: 2.5rem;
-    background-color: #f6ed9b;
+    background-color: var(--bg-card);
     border-radius: 10px;
     padding: 2rem 2.5rem;
     max-width: 750px;
     margin: 0 auto 3rem auto;
-    border: 1px solid #BAD5DE;
+    border: 1px solid var(--border-card);
 }
 
 .github-profile img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    border: 3px solid #BAD5DE;
+    border: 3px solid var(--border-card);
     object-fit: cover;
 }
 
 .github-profile-info h3 {
     font-size: 1.8rem;
-    color: #3B3B33;
+    color: var(--text-card);
     margin-bottom: 0.4rem;
 }
 
 .github-profile-info .bio {
     font-size: 1rem;
-    color: #3B3B33;
+    color: var(--text-card);
     margin-bottom: 1rem;
 }
 
@@ -353,7 +349,7 @@ button.btn:hover {
 
 .stat-item {
     text-align: center;
-    background-color: #8ea458;
+    background-color: var(--bg-main);
     padding: 0.5rem 1.2rem;
     border-radius: 8px;
 }
@@ -362,12 +358,12 @@ button.btn:hover {
     display: block;
     font-size: 1.4rem;
     font-weight: bold;
-    color: #f6ed9b;
+    color: var(--text-logo);
 }
 
 .stat-label {
     font-size: 0.78rem;
-    color: #f6ed9b;
+    color: var(--text-logo);
 }
 
 .repo-grid {
@@ -379,8 +375,8 @@ button.btn:hover {
 }
 
 .repo-card {
-    background-color: #f6ed9b;
-    border: 1px solid #BAD5DE;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-card);
     border-radius: 10px;
     padding: 1.5rem;
     display: flex;
@@ -399,7 +395,7 @@ button.btn:hover {
 }
 
 .repo-card h4 a {
-    color: #557B40;
+    color: var(--text-heading);
     text-decoration: none;
 }
 
@@ -409,7 +405,7 @@ button.btn:hover {
 
 .repo-card p {
     font-size: 0.9rem;
-    color: #3B3B33;
+    color: var(--text-card);
 }
 
 .repo-meta {
@@ -417,14 +413,14 @@ button.btn:hover {
     gap: 1rem;
     flex-wrap: wrap;
     font-size: 0.82rem;
-    color: #3B3B33;
+    color: var(--text-card);
     margin-top: 0.3rem;
 }
 
 .github-loading {
     text-align: center;
-    color: #f6ed9b;
-    font-size: 1.1rem;
+    color: var(--text-logo);
+    font-size: 1.5rem;
     padding: 3rem;
 }
 
@@ -438,7 +434,7 @@ button.btn:hover {
 /*footer*/
 .footer-content {
     display: flex;
-    background-color: #557B40;
+    background-color: var(--bg-footer);
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -448,11 +444,11 @@ button.btn:hover {
 .footer-content a {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color: #BAD5DE;
+    color: var(--text-footer);
 }
 
 .footer-content a:hover {
-    color: #D9C5EA;
+    color: var(--text-nav-hover);
 }
 
 .social-links {
