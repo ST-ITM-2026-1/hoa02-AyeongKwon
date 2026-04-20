@@ -7,6 +7,7 @@
     <title>Projects | Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/theme.js"></script>
+    <script src="js/filter.js"></script>
 </head>
 
 <body>
@@ -28,8 +29,17 @@
     <main>
         <section id="projects">
             <h2>My Projects</h2>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="figma">Figma</button>
+                <button class="filter-btn" data-filter="html-css">HTML&CSS</button>
+                <button class="filter-btn" data-filter="java">Java</button>
+                <button class="filter-btn" data-filter="ts-js">TS&JS</button>
+            </div>
+
             <div class="project-grid">
-                <article class="project-card">
+                <article class="project-card" data-category="figma">
                     <img src="images/project1.jpg" alt="Screenshot of Project 1">
                     <div class="card-content">
                         <h3>AllWrite</h3>
@@ -40,7 +50,7 @@
                         </ul>
                     </div>
                 </article>
-                <article class="project-card">
+                <article class="project-card" data-category="figma html-css ts-js">
                     <img src="images/project2.jpg" alt="Screenshot of Project 2">
                     <div class="card-content">
                         <h3>Pro-Outgoer</h3>
@@ -55,7 +65,7 @@
                         </ul>
                     </div>
                 </article>
-                <article class="project-card">
+                <article class="project-card" data-category="java">
                     <img src="images/project3.png" alt="Screenshot of Project 3">
                     <div class="card-content">
                         <h3>UniTime-Solver</h3>
@@ -67,7 +77,7 @@
                             class="btn">GitHub</a>
                     </div>
                 </article>
-                <article class="project-card">
+                <article class="project-card" data-category="html-css ts-js">
                     <img src="images/project4.jpg" alt="Screenshot of Project 4">
                     <div class="card-content">
                         <h3>Waggle-Baggle</h3>
